@@ -364,7 +364,11 @@ a {
   width: 100%;
   text-align: left;
   font-size: 22px;
-  color:
+}
+
+.footer a{
+  color: #3f8d59;
+  text-decoration: none;
 }
 
 
@@ -569,9 +573,15 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
+/* Mobile */
+@media (max-width: 400px) {
+  .bg-clip{
+    background-image: none;
+  }
+}
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 401px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
